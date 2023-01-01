@@ -1,0 +1,350 @@
+body {
+    margin: 0; padding: 0;
+    display: block;
+    /* border: 2px solid red; */
+}
+
+
+/* SECTION-MAIN */
+.section-main {
+    display: block;
+    width: 100%;
+    box-sizing: inherit;
+}
+
+#line {
+    color: #0ee70e;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 300px;
+}
+
+/* SECTION-1-MAIN */
+.section-1-main  h2, .main-text {
+    text-align: center;
+    font-family: monospace;
+}
+
+.section-1-main {
+    font-size: 20px;
+}
+
+
+/* MAIN-TEXT */
+.main-1-text {
+    height: 515px;
+    background-color: #ffffff;
+    padding: 40px 0 95px 0;
+}
+
+.main-1-text > h2 {
+    margin-bottom: 0px;
+
+}
+
+.main-text {
+    margin: 40px 0 95px 0;
+    font-size: 17px;
+}
+
+.main-text > p {
+    line-height: 30px;
+    font-weight:500;
+    font-size: 19px;
+    margin-top: 65px;
+    margin-bottom: 100px;
+}
+
+.main-text > a {
+    padding: 10px 7%;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 2px solid #0a9c0a;
+}
+
+.main-text > a:hover {
+    color: #fff;
+    background-color: #0a9c0a;
+}
+
+
+
+
+
+
+/* MAIN-2-TEXT */
+.main-2-text {
+    background-color: #fcf8f8;
+    padding: 40px 0 95px 0;
+    /* border: 2px solid aqua; */
+}
+
+
+.embedded-text.section-1 {
+    display: flex;
+    width: 90%;
+    margin: 0 65px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-content: center;
+    /* border: 2px solid aqua; */
+}
+
+
+.main-text-1, .main-text-2, .main-text-3 {
+    margin: 0 15px;
+    padding: 0 15px 90px;
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    /* border: 2px solid aqua; */
+    flex-shrink: 1;
+    border-top: 8px solid #0a9c0a;
+    background-color: #fff;
+    box-shadow: 0 2px 25px 0 rgba(26, 39, 112, 0.43);
+}
+
+.main-text-1 img {
+    width: 300px;
+    margin-top: 15px;
+}
+
+.main-text-2 img {
+    width: 300px;
+    margin-top: 15px;
+}
+
+.main-text-3 img {
+    width: 300px;
+    margin-top: 15px;
+}
+
+.main-text-1 p, .main-text-2 p, .main-text-3 p {
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 15px;
+    padding-bottom: 25px;
+} 
+
+.main-text-1 a, .main-text-2 a, .main-text-3 a {
+    padding: 8px 5%;
+    width: 100%;
+    font-size: 19px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid rgb(10, 156, 10);
+}
+
+.main-text-1 a:hover, .main-text-2 a:hover, .main-text-3 a:hover {
+    color: #fff;
+    background-color: #0a9c0a;
+} 
+
+.main-text-2 p {
+    margin-bottom: 20px;
+}
+
+.main-text-3 p {
+    margin-bottom: 35px;
+}
+
+
+
+
+/* SECTION 2 MAIN */
+.section-2-main {
+    display: block;
+    box-sizing: inherit;
+    padding: 55px 0;
+    /* border: 2px solid #0a9c0a; */
+    /* background-color: #8bce07; */
+}
+
+.section-2-text {
+    padding-top: 25px;
+    font-size: x-large;
+    font-family: monospace;
+    text-align: center;
+}
+
+.section-2-text > h3 {
+    font-size: xx-large;
+}
+
+
+.section-2-main > .marquee-div > marquee > img{
+    width: 200px;
+    margin: 0 15px;
+}
+
+.section-3-main {
+    border-top: 2px solid #808080;
+    /* background-color: #0a9c0a; */
+    padding: 55px 0;
+    text-align: center;
+    font-size: x-large;
+    font-family: monospace;
+}
+
+.section-4-main {
+    background-color: #fdf7f7;
+}
+
+.section-4-scroll {
+    display: flex;
+    flex-shrink: 1;
+}
+.main-text-4.Open-Source, .main-text-4.SwaggerHub.Free, .main-text-4.SwaggerHub-Pro {
+    margin: 45px 15px;
+    padding: 0 15px 90px;
+    width: 90%;
+    font-family: monospace;
+    background-color: #fff;
+    /* text-align: center; */
+    box-shadow: 0 2px 25px 0 rgba(26, 39, 112, 0.43);
+}
+
+.main-text-4.Open-Source > a, .main-text-4.SwaggerHub.Free > a, .main-text-4.SwaggerHub-Pro > a {
+    text-decoration: none;
+    margin: 0 140px;
+    color: #000000;
+    border-bottom: 2px solid #0ee70e;
+    font-size: x-large;
+}
+
+
+.main-text-4.Open-Source img {
+    width: 200px;
+    margin: 0 90px;
+    /* border: 2px solid #000000; */
+    position: relative;
+}
+
+.main-text-4 img {
+    width: 150px;
+    margin: 5px 120px 0;
+}
+
+.section-4-scroll h3 {
+    text-align: center;
+}
+
+.des-links {
+    margin-bottom: 45px;
+}
+
+.des-links li {
+    margin: 5px 55px;
+    padding: 0px;
+    /* border: 2px solid #000000; */
+}
+
+#tick {
+    color: #0ee70e;
+}
+
+.des-links li a, .section-4-scroll li, .section-4-scroll p {
+    list-style: none;
+    text-decoration: none;   
+    padding: 0 10px;
+    margin-left: 15px;
+    color: #000000;
+}
+
+.section-5-main, .section-6-main {
+    background-color: #edf1ed;
+    padding: 55px 0;
+    text-align: center;
+    font-size: x-large;
+    font-family: monospace;
+}
+
+.section-5-main-text {
+    padding-bottom: 45px;
+}
+
+.section-5-main > .img > img {
+    width: 45%;
+    height: 300px;
+    /* border-top: 2px solid #808080; */
+}
+
+.section-5-main a, .section-6-main a {
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 2px solid #adacac;
+}
+
+.section-6-main {
+    /* border-top: 2px solid #808080; */
+    background-color: #fff;
+    padding: 55px 0;
+    text-align: center;
+    font-size: x-large;
+    font-family: monospace;
+}
+
+.section-6-text a {
+    margin-bottom: 60px;
+}
+
+.SmartBear img {
+    width: 400px;
+}
+
+.Open-Source img  {
+    margin-top: 60px;
+    width: 600px;
+}
+
+.section-7-main {
+    background-color: #e4e4e4;
+    padding: 55px 0;
+    text-align: center;
+    font-size: x-large;
+    font-family: monospace;
+}
+
+
+.section-7-main p {
+    margin-bottom: 40px;
+}
+
+
+.Send-API-btn p {
+    display: flex;
+    content: 15px;
+    justify-content: center;
+    align-content: center;
+    margin: 0 15px;
+    /* border: 2px solid #000000; */
+}
+
+
+.section-7-main .Send-API-btn span {
+    color: #fff;
+    background-color: #020411;
+    padding: 12px 15px;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.section-7-main .Send-API-btn input {
+    width: 30%;
+    padding: 0 15px;
+}
+
+.section-7-main .Send-API-btn button {
+    padding: 15px 25px;
+    position: relative;
+    color: #fff;
+    border: none;
+    background-color: #0ee70e;
+    border-radius: 0 5px 5px 0;
+    /* border: 2px solid #000000; */
+}
